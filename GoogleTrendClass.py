@@ -10,7 +10,7 @@ pytrend.build_payload(kw_list=['bitcoin'], timeframe='now 7-d')
 
 # Interest Over Time
 interest_over_time_df = pytrend.interest_over_time()
-print(interest_over_time_df.head())
+print(interest_over_time_df)
 
 # # Interest by Region
 # interest_by_region_df = pytrend.interest_by_region()
